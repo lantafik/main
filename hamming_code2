@@ -31,6 +31,5 @@ for i in range(1, len(b)):
     if type(b[i]) != str:
         a *= 10
         a += b[i]
-print(a, type(a))
 a = int(str(a), 2)
 print(a)
