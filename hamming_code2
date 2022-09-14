@@ -1,7 +1,8 @@
 from math import log
-b = input().split()
-for i in range(len(b)):
-    b[i] = int(b[i])
+bx = input()
+b = []
+for i in range(len(bx)):
+    b.append(int(bx[i]))
 k = []
 len_k = 0
 for j in range(1, len(b)):
