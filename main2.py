@@ -6,7 +6,7 @@ from aiogram.utils import executor
 
 from main3 import sql_add_date, text
 
-bot = Bot(token='6596981303:AAEqYw5ga-iEWZZlkKpo7lS58RpSLKF_9WU')
+bot = Bot(token='')
 dp = Dispatcher(bot)
 
 
